@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WLFace.ai | AI Motion Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>WLFace.ai</h1>
+  <p>Advanced AI Motion Control Technology</p>
+</header>
+
+<section class="upload-section">
+  <div class="upload-box" id="uploadBox">
+    <p id="uploadText">Clique ou arraste seu vídeo aqui</p>
+    <input type="file" id="videoInput" accept="video/*" hidden>
+  </div>
+
+  <div id="previewContainer" class="preview hidden">
+    <video id="videoPreview" controls></video>
+    <button class="generate-btn" onclick="sendVideo()">Gerar Motion</button>
+  </div>
+
+  <div id="loading" class="loading hidden">
+    <p>Processando com Inteligência Artificial...</p>
+  </div>
+
+  <div id="result"></div>
+</section>
+
+<footer>
+  <div class="social">
+    <a href="https://www.instagram.com/iwallacerj" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@iwallacerj" target="_blank">TikTok</a>
+    <a href="https://youtube.com/@iwallacerj" target="_blank">YouTube</a>
+  </div>
+  <p>© 2026 WLFace.ai - Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
